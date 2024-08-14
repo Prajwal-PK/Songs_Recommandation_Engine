@@ -9,8 +9,8 @@ import os
 st.write("Current Working Directory:", os.getcwd())
 
 # Load data and model (ensure correct file paths)
-data = pickle.load(open('data.pkl', 'rb'))
-RF = pickle.load(open('random_forest_model.pkl', 'rb'), encoding='latin1')
+data = pickle.load(open('Codes/data.pkl', 'rb'))
+RF = pickle.load(open('Codes/random_forest_model.pkl', 'rb'), encoding='latin1')
 
 # Get the feature names used during model training
 model_features = RF.feature_names_in_
