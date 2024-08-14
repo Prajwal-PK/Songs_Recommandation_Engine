@@ -30,4 +30,4 @@ This project uses several machine learning algorithms to predict song popularity
 ### Deployment:
 The model is deployed using Streamlit, providing a user-friendly interface for selecting songs and getting recommendations.
 
-Check it live: [Link to Streamlit App]
+Check it live: https://songsrecommandationengine.streamlit.app/
