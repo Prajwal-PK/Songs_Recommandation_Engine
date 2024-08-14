@@ -46,6 +46,7 @@ else:
     RF = RandomForestRegressor(n_estimators=100, random_state=42)  # Adjust hyperparameters as needed
     RF.fit(X_train, y_train)
 
+
 # Get the feature names used during model training
 model_features = RF.feature_names_in_
 
