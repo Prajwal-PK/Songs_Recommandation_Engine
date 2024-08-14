@@ -3,6 +3,10 @@ import pandas as pd
 import numpy as np
 import pickle
 from sklearn.ensemble import RandomForestRegressor
+import os
+
+# Print the current working directory
+st.write("Current Working Directory:", os.getcwd())
 
 # Load data and model (ensure correct file paths)
 data = pickle.load(open('data.pkl', 'rb'))
